@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
+
+<Aptech>
+
+<student>
+<Name>Rizwan</Name>
+<Age>21</Age>
+<Address>Sfc</Address>
+<Gender>Male</Gender>
+</student>
+
+<student>
+<Name>Haris</Name>
+<Age>23</Age>
+<Address>Malir</Address>
+<Gender>Male</Gender>
+</student>
+
+<student>
+<Name>Zaman</Name>
+<Age>25</Age>
+<Address>Saddar</Address>
+<Gender>Male</Gender>
+</student>
+
+<student>
+<Name>Hafeez</Name>
+<Age>31</Age>
+<Address>Star Gate</Address>
+<Gender>Male</Gender>
+</student>
+
+<student>
+<Name>Salman</Name>
+<Age>45</Age>
+<Address>Gulshan</Address>
+<Gender>Male</Gender>
+</student>
+
+</Aptech>
