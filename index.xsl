@@ -19,10 +19,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 text-decoration:underline;
                 text-decoration-color:black;
             }
-            img{
+            <!-- img{
                 width:100px;
                 background-repeat:no-repeat;
-            }
+            } -->
         </style>
         <h1>Student Information</h1>
         <table border="1px" align="center">
@@ -39,13 +39,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                     <td><xsl:value-of select="Age"></xsl:value-of></td>
                     <td><xsl:value-of select="Address"></xsl:value-of></td>
                     <td><xsl:value-of select="Gender"></xsl:value-of></td>
+                    <td><img src="{Image}" /></td>
                     <!-- <td><img src="./images/Haris.png"/></td> -->
-                    <td><xsl:value-of select="image"></xsl:value-of></td>
+                    <!-- <td><xsl:value-of select="image"></xsl:value-of></td> -->
                     
                 </tr>
-                 <!-- <div> -->
-                    <!-- <img src="./images/Hasan.png"></img> -->
-                <!-- </div> -->
+                 <!-- <div>
+                    <img src="./images/Hasan.png"></img>
+                </div> -->
                 <!-- <div>
                     <img src="./images/Haris.png"></img>
                 </div>  -->
